@@ -1,0 +1,321 @@
+[
+  {
+    "id": 1,
+    "first_name": "Temujin",
+    "age": 30,
+    "last_name": "Soyol-Erdene",
+    "email": "temujin@nhs.edu.mn",
+    "country": "Mongolia",
+    "password": "password123",
+    "point": 100,
+    "type": "teacher",
+    "created_at": "2026-03-11"
+  },
+  {
+    "id": 2,
+    "first_name": "Munh-Orgil",
+    "last_name": "Munhzorig",
+    "age": 16,
+    "email": "NEST25271004@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 100,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+  {
+    "id": 3,
+    "first_name": "Turnmunh",
+    "last_name": "Davaa-Ochir",
+    "age": 17,
+    "email": "NEST21271010@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 100,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+  {
+    "id": 4,
+    "first_name": "Temujin",
+    "last_name": "Gantulga",
+    "age": 16,
+    "email": "NEST24271006@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 100,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+  {
+    "id": 5,
+    "first_name": "Temuulen",
+    "last_name": "Davaadorj",
+    "age": 15,
+    "email": "nest21271013@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 100,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+  {
+    "id": 6,
+    "first_name": "Tusg-Erdene",
+    "last_name": "Shinelundaa",
+    "age": 16,
+    "email": "nest20271008@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 100,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 7,
+    "first_name": "Badmaarag",
+    "last_name": "Gantugs",
+    "age": 16,
+    "email": "nest23271002@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 8,
+    "first_name": "Bat-Uchral",
+    "last_name": "Erdenebat",
+    "age": 16,
+    "email": "monmrgn2388@gmail.com",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 9,
+    "first_name": "Ermuun",
+    "last_name": "Buyanbaatar",
+    "age": 16,
+    "email": "nest20271013@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 10,
+    "first_name": "Altanzangilaa",
+    "last_name": "Bat-Erdene",
+    "age": 17,
+    "email": "altanzangilaab@gmail.com",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 11,
+    "first_name": "Tulga",
+    "last_name": "Erdenebayar",
+    "age": 17,
+    "email": "NEST20271009@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 12,
+    "first_name": "Lawakele",
+    "mid_name": "Mua",
+    "last_name": "Taito",
+    "age": 17,
+    "email": "NEST23271018@nhs.edu.mn",
+    "password": "password123",
+    "country": "Fiji",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 13,
+    "first_name": "Erhem",
+    "last_name": "Ganzorig",
+    "age": 17,
+    "email": "NESt20271014@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 14,
+    "first_name": "Tuvshin",
+    "last_name": "Bat-Erdene",
+    "age": 17,
+    "email": "NEST21271011@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 15,
+    "first_name": "Chinguun",
+    "last_name": "Batbayar",
+    "age": 17,
+    "email": "NEST21271020@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 16,
+    "first_name": "Temulen",
+    "last_name": "Gantulga",
+    "age": 17,
+    "email": "NEST24271007@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 17,
+    "first_name": "Angaragnaran",
+    "last_name": "Dambadorj",
+    "age": 17,
+    "email": "NEST25271002@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 18,
+    "first_name": "Dulguun",
+    "last_name": "Alatan-Ochir",
+    "age": 17,
+    "email": "NEST20271003@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 19,
+    "first_name": "Chinguun",
+    "last_name": "Erdene-Ochir",
+    "age": 17,
+    "email": "NEST21271019@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 20,
+    "first_name": "Orgil",
+    "last_name": "Tsogtsaihan",
+    "age": 17,
+    "email": "NEST20271006@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 21,
+    "first_name": "Bilguun",
+    "last_name": "Shirmenbaatar",
+    "age": 17,
+    "email": "NEST20271002@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 22,
+    "first_name": "Tuguldur",
+    "last_name": "Ankhtuya",
+    "age": 17,
+    "email": "NEST20271007@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 23,
+    "first_name": "Telmuun",
+    "last_name": "Naranhuu",
+    "age": 17,
+    "email": "NEST20271010@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+
+  {
+    "id": 24,
+    "first_name": "Temuujin",
+    "last_name": "Bayasgalan",
+    "age": 17,
+    "email": "NEST21271012@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  },
+  {
+    "id": 25,
+    "first_name": "Shinebayar",
+    "last_name": "Tsogoo",
+    "age": 17,
+    "email": "NEST24271011@nhs.edu.mn",
+    "password": "password123",
+    "country": "Mongolia",
+    "point": 0,
+    "type": "student",
+    "created_at": "2026-03-11"
+  }
+]
