@@ -1,7 +1,20 @@
+"use client"
+import { useRouter } from "next/navigation";
+
 export default function WeatherPage() {
+  const router = useRouter();
+
   return (
     <div className="flex gap-4 bg-[#0E1230] h-screen p-4">
       <div className=" justify-items-center rounded-xl w-[10%] h-dvh bg-[#183366]">
+        <div className="flex flex-col justify-center pl-4">
+        <button
+          className="bg-white border border-solid rounded-xl border-black text-blue-500 h-8 w-16"
+          onClick={() => router.push("/")}
+        >
+          back
+        </button>
+      </div>
         <div className="bg-blue-950 h-12 w-12 mt-12 rounded-xl p-1">
           <img src="https://cdn-icons-png.flaticon.com/128/5024/5024369.png" />
         </div>
@@ -33,7 +46,7 @@ export default function WeatherPage() {
         <div className="h-[32%] w-full bg-[#183366] rounded-xl p-4 justify-between">
           <div>
             <h3 className="font-bold text-[15px] mb-4 text-slate-400">
-              TODAY'S FORECAST
+              TODAY S FORECAST
             </h3>
           </div>
           <div className="flex m-8 justify-between">

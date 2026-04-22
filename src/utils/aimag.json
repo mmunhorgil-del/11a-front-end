@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "country_side": "Архангай"
+  },
+  {
+    "id": 1,
+    "country_side": "Баян-Өлгий"
+  },
+  {
+    "id" : 2,
+    "country_side" : "Баянхонгор"
+  },
+  {
+    "id" : 3,
+    "country_side" : "Булган"
+  },
+  {
+    "id" : 4,
+    "country_side" : "Говь-Алтай"
+  },
+  {
+    "id" : 5,
+    "country_side" : "Говьсүмбэр"
+  },
+  {
+    "id" : 6,
+    "country_side" : "Дархан-Уул"
+  },
+  {
+    "id" : 7,
+    "country_side" : "Дорноговь"
+  },
+  {
+    "id" : 9,
+    "country_side" : "Дорнод"
+  },
+  {
+    "id" : 9,
+    "country_side" : "Дундговь"
+  },
+  {
+    "id" : 10,
+    "country_side" : "Завхан"
+  },
+  {
+    "id" : 11,
+    "country_side" : "Орхон"
+  },
+  {
+    "id" : 12,
+    "country_side" : "Өвөрхангай"
+  },
+  {
+    "id" : 13,
+    "country_side" : "Өмнөговь"
+  },
+  {
+    "id" : 14,
+    "country_side" : "Сүхбаатар"
+  },
+  {
+    "id" : 15,
+    "country_side" : "Сэлэнгэ"
+  },
+  {
+    "id" : 16,
+    "country_side" : "Төв"
+  },
+  {
+    "id" : 17,
+    "country_side" : "Увс"
+  },
+  {
+    "id" : 18,
+    "country_side" : "Ховд"
+  },
+  {
+    "id" : 19,
+    "country_side" : "Хөвсгөл"
+  },
+  {
+    "id" : 20,
+    "country_side" : "Хэнтий"
+  },
+  {
+    "id" : 21,
+    "country_side" : "Сэлэнгэ"
+  }
+]
