@@ -125,8 +125,8 @@ export default function HomePage() {
             </div>
           ))
         ) : (
-          <div className="mb-4 col-span-2 col-start-2 text-black">
-            <img className="h-100 w-full" src="/notfound.jpeg" alt="Data oldsongui"/>
+          <div className="mb-4 h-screen col-span-2 col-start-2 text-black">
+            <img className=" w-full" src="/notfound.jpeg" alt="Data oldsongui"/>
           </div>
         )}
       </div>
