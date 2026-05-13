@@ -1,5 +1,6 @@
 "use client"
 import { useRouter } from "next/navigation";
+import { ArrowLeft } from "lucide-react";
 
 export default function WeatherPage() {
   const router = useRouter();
@@ -11,7 +12,7 @@ export default function WeatherPage() {
         <button
           onClick={() => router.push("/")}
         >
-          <img className="cursor-pointer rounded-xl text-blue-500 w-8 h-6" src="/arrow.png" alt="back"/>
+          < ArrowLeft className="cursor-pointer rounded-xl text-blue-40 w-8 h-6 m-4" />
         </button>
       </div>
         <div className="bg-blue-950 h-12 w-12 mt-12 rounded-xl p-1">

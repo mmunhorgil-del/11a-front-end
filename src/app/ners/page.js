@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import DataJson from "../../utils/data.json";
+import { ArrowLeft } from "lucide-react";
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -29,11 +30,7 @@ export default function HomePage() {
     <div className="p-6 bg-pink-200 h-[100%] ">
       <div className="flex items-start gap-4 mb-4">
         <button onClick={() => router.push("/")}>
-          <img
-            className="cursor-pointer rounded-xl text-blue-500 w-8 h-6"
-            src="/arrow.png"
-            alt="back"
-          />
+          <ArrowLeft className="cursor-pointer rounded-xl text-black w-8 h-6" />
         </button>
         <div className="mb-4 w-full flex justify-center items-center gap-2">
           <input
@@ -128,8 +125,8 @@ export default function HomePage() {
             </div>
           ))
         ) : (
-          <div className="mb-4 w-full col-span-2 col-start-2 h-screen text-black">
-            <img className="h-screen w-full" src="/notfound.jpeg" alt="Data oldsongui"/>
+          <div className="mb-4 col-span-2 col-start-2 text-black">
+            <img className="h-100 w-full" src="/notfound.jpeg" alt="Data oldsongui"/>
           </div>
         )}
       </div>
