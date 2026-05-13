@@ -7,12 +7,11 @@ export default function WeatherPage() {
   return (
     <div className="flex gap-4 bg-[#0E1230] h-screen p-4">
       <div className=" justify-items-center rounded-xl w-[10%] h-dvh bg-[#183366]">
-        <div className="flex flex-col justify-center pl-4">
+        <div className="flex items-start mb-4">
         <button
-          className="bg-white border border-solid rounded-xl border-black text-blue-500 h-8 w-16"
           onClick={() => router.push("/")}
         >
-          back
+          <img className="cursor-pointer rounded-xl text-blue-500 w-8 h-6" src="/arrow.png" alt="back"/>
         </button>
       </div>
         <div className="bg-blue-950 h-12 w-12 mt-12 rounded-xl p-1">

@@ -5,22 +5,24 @@ export default function AboutPage() {
   const router = useRouter();
 
   return (
-    <div>
-      
-      <div className="h-[100px] bg-white flex items-center justify-between">
-        <div className="flex flex-col justify-center pl-4">
-        <button
-          className="bg-white border border-solid rounded-xl border-black text-blue-500 h-8 w-16"
-          onClick={() => router.push("/")}
-        >
-          back
-        </button>
-      </div>
-        <div className="flex items-center justify-start">
-          <img
-            className="h-[100px] w-[100px] ml-8 mt-8"
-            src="https://nhs.edu.mn/favicon.ico"
-          ></img>
+    <div className="h-auto w-auto">
+      <div className="h-[100px] bg-white flex items-center justify-between ">
+        <div className="flex items-start">
+          <div className="flex flex-col justify-center p-4 pt-8">
+            <button onClick={() => router.push("/")}>
+              <img
+                className="cursor-pointer rounded-xl text-blue-500 w-8 h-6"
+                src="/arrow.png"
+                alt="back"
+              />
+            </button>
+          </div>
+          <div className="flex items-center justify-start">
+            <img
+              className="h-[100px] w-[100px] ml-8 mt-8"
+              src="https://nhs.edu.mn/favicon.ico"
+            ></img>
+          </div>
         </div>
         <div className="flex items-center ">
           <p className="text-black text-[20px] m-4">Home</p>
@@ -44,7 +46,10 @@ export default function AboutPage() {
           </button>
         </div>
         <div>
-          <img src="https://i.pinimg.com/736x/c7/77/1b/c7771bd71ad9615abfb93bbc5078e4f5.jpg"></img>
+          <img
+            className="h-[500px] w-[1000px]"
+            src="https://i.pinimg.com/736x/c7/77/1b/c7771bd71ad9615abfb93bbc5078e4f5.jpg"
+          ></img>
         </div>
       </div>
     </div>

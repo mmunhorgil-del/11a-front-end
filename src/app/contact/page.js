@@ -5,15 +5,16 @@ export default function ContactPage() {
   const router = useRouter();
 
   return (
-    <div>
+    <div className="">
       <div className="h-[50px] bg-[#1c2e99]">
         <div className="flex items-center justify-start pl-4">
-          <button
-            className="bg-white border border-solid rounded-xl border-black text-blue-500 h-8 w-16"
-            onClick={() => router.push("/")}
-          >
-            back
-          </button>
+                      <button onClick={() => router.push("/")}>
+              <img
+                className="cursor-pointer rounded-xl text-blue-500 w-8 h-6"
+                src="/arrow.png"
+                alt="back"
+              />
+            </button>
         </div>
         {/*<div className="flex items-center gap-4 pr-8">
           <div className="h-4 w-15 bg-neutral-300 rounded-md" />
