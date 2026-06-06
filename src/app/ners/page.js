@@ -66,7 +66,7 @@ export default function HomePage() {
           filtered.map((item) => (
             <div
               key={item.id}
-              className="cursor-pointer p-4 text-white bg-white h-auto w-auto rounded rounded-xl border border-solid border-2 border-black hover:scale-103 hover:bg-violet-200"
+              className="cursor-pointer p-4 text-white bg-white h-auto w-auto rounded rounded-xl border border-solid border-2 border-black hover:scale-105   hover:bg-violet-200"
             >
               <div className="flex justify-betweenx">
                 <img
@@ -79,7 +79,16 @@ export default function HomePage() {
                 <h1 className="m-2 font-bold text-black">
                   {item.first_name} {item.last_name}
                 </h1>
-                <p className="m-4 text-black bg-blue-200 h-6 w-18 rounded rounded-xl flex justify-center items-center">
+                <p
+                  className={`m-4 h-6 w-20 rounded-xl flex justify-center items-center text-sm font-medium
+    ${
+      item.type === "student"
+        ? "bg-blue-100 text-blue-700"
+        : item.type === "teacher"
+          ? "bg-green-100 text-green-700"
+          : "bg-gray-100 text-gray-700"
+    }`}
+                >
                   {item.type}
                 </p>
               </div>
@@ -126,11 +135,14 @@ export default function HomePage() {
           ))
         ) : (
           <div className="mb-4 h-screen col-span-2 md:col-start-2 ls:col-start-1 text-black">
-            <img className=" w-full" src="/notfound.jpeg" alt="Data oldsongui"/>
+            <img
+              className=" w-full"
+              src="/notfound.jpeg"
+              alt="Data oldsongui"
+            />
           </div>
         )}
       </div>
-      
     </div>
   );
 }
